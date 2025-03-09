@@ -3,3 +3,4 @@ yfinance
 python-dotenv
 groq
 duckduckgo-search
+pytest
