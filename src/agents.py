@@ -61,10 +61,3 @@ multi_ai_agent = Agent(
 )
 
 logging.info("All AI agents initialized successfully")
-
-if __name__ == "__main__":
-    try:
-        response = multi_ai_agent.print_response("Summarize analyst recommendation and share the latest news for AAPL")
-        print(response)
-    except Exception as e:
-        logging.error(f"Error in agent response: {e}")
